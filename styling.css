@@ -1,0 +1,184 @@
+/*style body by adding bg image and set it to cover, add font-family*/
+body{
+    font-family: Arvo,serif;
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/232.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*style brand*/
+.logo{
+height: 30px;
+}
+/*style nav bar*/
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+/*style jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+/*limit the width of the icons section*/ 
+.container{
+    max-width: 1000px;
+}
+/*style icon section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+.icons p{
+    font-size: 15px;
+}
+/*style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
+/*style footer*/
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 0 0;
+}
+/*use media queries to change icons size in small devices*/
+@media(max-width:768px){
+    .bodyimage{
+        height: 70px;
+    }
+    }
+
+body h1{
+    color: lightblue;
+    
+    text-align: center;
+}
+
+body p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+}
+
+.container h1{
+    padding-top: 100px;
+}
+
+.container p{
+    padding-top: 50px;
+}
+
+.contact-detail{
+    color: white;
+    padding-top: 30px;
+    
+}
+
+.contact-detail h1{
+    color: beige;
+}
+
+.contact-detail h2{
+    color: aqua;
+}
+.mobile p{
+    color: rgba( 99, 222, 247, 0.874 );
+}
+.mobile p:hover{
+    color: aliceblue;
+}
+
+
+.contact-detail a{
+    color: rgba( 99, 222, 247, 0.874 );
+}
+.contact-detail a:hover{
+    color: aliceblue;
+}
+
+.skills h4{
+    color: aquamarine;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*github*/
+.fa-github {
+  background: rgba( 90, 228, 82, 0.477 );
+  color: white;
+}
+/*Linkedin*/
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
+}
+
+.social{
+    letter-spacing: 20px;
+}
